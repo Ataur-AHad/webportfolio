@@ -60,6 +60,10 @@ nav ul li a:hover{
     margin: 60px 0;
 }
 
+.sec-1-name{
+    color: royalblue;
+}
+
 .col-1{
     flex-basis: 40%;
     position: relative;
@@ -80,7 +84,7 @@ button{
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(to right, blue, red);
+    background: linear-gradient(to right, dodgerblue, royalblue);
     border-radius: 10px;
     cursor: pointer;
     transition: width 0.5s;
