@@ -23,9 +23,9 @@ body{
 }
 
 .logo{
-    width: 50px;
+    width: 130px;
     cursor: pointer;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 .menu-icon{
     width: 20px;
@@ -39,7 +39,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 nav ul li a{
     text-decoration: none;
@@ -47,7 +47,7 @@ nav ul li a{
     font-size: 17px;
 }
 nav ul li a:hover{
-    color: #6e84ff;
+    color: royalblue;
 }
 /*============== navigation bar ============*/
 
@@ -57,10 +57,10 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 60px 0;
+    margin: 30px 0;
 }
 
-.sec-1-name{
+.text-color-1{
     color: royalblue;
 }
 
@@ -221,7 +221,8 @@ button:hover {
     /*============== navigation bar ============*/
     nav ul{
         width: 100%;
-        background-color: rgb(53, 53, 252);
+        background-color: black;
+        opacity: 0.5;
         position: absolute;
         top: 75px;
         right: 0;
@@ -248,7 +249,7 @@ button:hover {
     /*============== first section ============*/
 
     .container{
-        background-image: url(image/bg-3.png);
+        background-image: url(image/bg-m.png);
         background-position-x: right;
         background-repeat: no-repeat;
         padding-left: 3%;
