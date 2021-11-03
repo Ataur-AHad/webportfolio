@@ -1,0 +1,70 @@
+.maintenance{
+    margin: auto;
+    align-items: center;
+    max-height: 420px;
+
+}
+.maintenance img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+.text{
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link{
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+h1{
+    font-size: 40px;
+    color: royalblue;
+}
+.button{
+    align-items: center;
+    text-decoration: none;
+    width: 150px;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, dodgerblue, royalblue);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button img{
+    width: 30px;
+    display: none;
+}
+
+.button:hover img{
+    display: block;
+}
+
+.button:hover {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button text{
+    text-decoration: none;
+}

@@ -1,7 +1,10 @@
 
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
+
+
 .container{
     width: 100%;
     min-height: 100vh;
@@ -14,7 +17,7 @@ body{
     background-repeat: no-repeat;
 }
 
-/*============== navigation bar ============*/
+/*============== navigation bar start ============*/
 
 .navbar{
     width: 100%;
@@ -23,9 +26,9 @@ body{
 }
 
 .logo{
-    width: 130px;
+    width: 60px;
     cursor: pointer;
-    margin: 10px 0;
+    margin: 60px 0;
 }
 .menu-icon{
     width: 20px;
@@ -49,9 +52,67 @@ nav ul li a{
 nav ul li a:hover{
     color: royalblue;
 }
-/*============== navigation bar ============*/
+/*============== navigation bar end ============*/
 
-/*============== first section ============*/
+
+
+/*============== buttons ============*/
+
+.button-2{
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    width: 150px;
+    border: none;
+    background: linear-gradient(to right, dodgerblue, royalblue);
+    border-radius: 5px;
+    height: 35px;
+    padding: auto;
+    color: white;
+    align-items: center;
+    transition: .2s;
+    margin-bottom: 60px;
+
+}
+.button-2:hover{
+    box-shadow: 5px 5px 7px #cbced1,
+                -5px -5px 7px #ffffff;
+}
+
+.button-3{
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    width: 220px;
+    background: linear-gradient(to right, dodgerblue, royalblue);
+    border-radius: 5px;
+    height: 35px;
+    padding: auto;
+    color: white;
+    align-items: center;
+    transition: .2s;
+    margin-bottom: 60px;
+}
+
+.button-3:hover{
+    box-shadow: 5px 5px 7px #cbced1,
+                -5px -5px 7px #ffffff; 
+}
+
+.button-3 h1{
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 300;
+
+
+}
+
+
+/*============== buttons ============*/
+
+
+
+/*============== first section start ============*/
 
 .row{
     display: flex;
@@ -71,14 +132,14 @@ nav ul li a:hover{
 }
 
 .col-1 h1{
-    font-size: 50px;
+    font-size: 55px;
 }
 .col-1 p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     margin: 30px 0;
 }
-button{
+.button{
     width: 150px;
     border: none;
     padding: 12px 10px;
@@ -89,16 +150,16 @@ button{
     cursor: pointer;
     transition: width 0.5s;
 }
-button img{
+.button img{
     width: 30px;
     display: none;
 }
 
-button:hover img{
+.button:hover img{
     display: block;
 }
 
-button:hover {
+.button:hover {
     width: 170px;
     display: flex;
     align-items: center;
@@ -114,9 +175,9 @@ button:hover {
     width: 80%;
     margin-left: 60px;
 }
-/*============== first section ============*/
+/*============== first section end ============*/
 
-/*============== second section ============*/
+/*============== second section start ============*/
 
 .container-2{
     width: 100%;
@@ -160,7 +221,7 @@ button:hover {
     font-size: 35px;
 }
 .row-2-col-2 p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     margin: 30px 0;
 }
@@ -189,7 +250,7 @@ button:hover {
     font-size: 35px;
 }
 .row-3-col-1 p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     margin: 30px 0;
 }
@@ -210,8 +271,86 @@ button:hover {
 /*----------------- raw-3 ----------------*/
 
 
-/*============== second section ============*/
+/*============== second section end ============*/
 
+
+
+/*============== third section start ============*/
+
+
+.portfolio-1{
+    text-align: center;
+    font-size: 27px;
+    text-shadow: 5px 5px 7px #cbced1,
+                -5px -5px 7px #ffffff; 
+    cursor: pointer;
+}
+
+.portfolio-1 a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+.portfolio-1 h1{
+    margin: 25px 0;
+    color: royalblue
+}
+
+
+.container-3{
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+    padding-left: 17%;
+    padding-right: 17%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.container-3 div{
+    flex-basis: 25%;
+    margin: 15px;
+    background-color: rgb(250, 250, 250);
+    padding: 25px;
+    box-shadow: 5px 5px 7px #cbced1,
+                -5px -5px 7px #ffffff; 
+    border-radius: 10px;
+}
+
+.container-3 div img{
+    width: 100%;
+}
+
+.content p{
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+.little-girl{
+    width: 10px;
+}
+
+/*============== third section end============*/
+
+
+
+
+
+
+.footer{
+    background-color: rgb(118, 151, 252);
+    text-align: center;
+    min-height: 20vh;
+}
+
+.footer p{
+    color: white;
+}
 
 
 /*============== media quary ============*/
@@ -224,7 +363,7 @@ button:hover {
         background-color: black;
         opacity: 0.5;
         position: absolute;
-        top: 75px;
+        top: 100px;
         right: 0;
         z-index: 2;
     }
@@ -254,6 +393,7 @@ button:hover {
         background-repeat: no-repeat;
         padding-left: 3%;
         padding-right: 3%;
+        background-size: 100%;
     }
 
 
@@ -344,5 +484,19 @@ button:hover {
 
 
     /*============== second section ============*/
+
+    .container-3{
+        flex-direction: column;
+
+    }
+
+    .container-3 div{
+        flex-basis: 100%;
+        width: 65%;
+    }
+
+    .portfolio-1 h1{
+        margin-top: 70px;
+    }
 }
 /*============== media quary ============*/
